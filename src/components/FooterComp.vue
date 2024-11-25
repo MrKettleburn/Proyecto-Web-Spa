@@ -1,5 +1,4 @@
 <template>
-    <!-- Footer Start -->
     <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
         <div class="container pt-5">
             <div class="row">
@@ -7,10 +6,10 @@
                     <a href="index.html" class="navbar-brand">
                         <h1 class="mb-3 text-white"><span class="text-primary">SPA</span> Center</h1>
                     </a>
-                    <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                    <p>Our mission is to provide a sanctuary of tranquility and wellness. Relax, renew, and rejuvenate in an environment that blends traditional techniques with modern innovations to offer you a unique and unforgettable experience.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Calle 180 e/ 1ra y 5ta Rpto. Flore, Playa, La Habana</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+53 53612685</p>
+                    <p><i class="fa fa-envelope mr-2"></i>spacenter@gmail.com</p>
                     <div class="d-flex justify-content-start mt-4">
                         <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -62,11 +61,7 @@
                 <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
                     <p class="m-0 text-white">&copy; <a href="#">Your Site Name</a>. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <p class="m-0 text-white">Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
 </template>
