@@ -3,18 +3,14 @@
     <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
             <h3 class="text-white display-3 mb-4">Services</h3>
-            <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
-                <i class="far fa-circle px-3"></i>
-                <p class="m-0">Services</p>
-            </div>
+            
         </div>
     </div>
     <!-- Header End -->
 
 
     <!-- Service Start -->
-    <div class="container-fluid px-0 py-5 my-5">
+    <div class=" cont container-fluid px-0 py-5 my-5">
         <div class="row mx-0 justify-content-center text-center">
             <div class="col-lg-6">
                 <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Our Service</h6>

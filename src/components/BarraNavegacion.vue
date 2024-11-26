@@ -11,10 +11,10 @@
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
                     <router-link to="/" class="nav-item nav-link active" >Home</router-link>
-                    <router-link to="/about" class="nav-item nav-link active" >About</router-link>
+                    <router-link to="/about" class="nav-item nav-link active" >About Us</router-link>
                     <router-link to="/services" class="nav-item nav-link active" >Services</router-link>
                 </div>
-                <a href="" class="btn btn-primary d-none d-lg-block">Login</a>
+                <router-link to="/login" class="btn btn-primary d-none d-lg-block" >Login</router-link>
             </div>
         </nav>
     </div>
