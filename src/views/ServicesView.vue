@@ -103,16 +103,22 @@
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker"/>
-                                    </div>
+                                    <input 
+                                        type="date" 
+                                        v-model="selectedDate" 
+                                        class="form-control bg-transparent p-4" 
+                                        :placeholder="selectedDate ? '' : placeholderDateText"
+                                    />
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
-                                    </div>
+                                    <input 
+                                        type="time" 
+                                        v-model="selectedTime" 
+                                        class="form-control bg-transparent p-4" 
+                                        :placeholder="selectedTime ? '' : placeholderTimeText"
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -121,9 +127,13 @@
                                 <div class="form-group">
                                     <select class="custom-select bg-transparent px-4" style="height: 47px;">
                                         <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 1</option>
-                                        <option value="3">Service 1</option>
+                                        <option 
+                                        v-for="service in services" 
+                                        :key="service.id" 
+                                        :value="service.id"
+                                        >
+                                        {{ service.name }}
+                                        </option>
                                     </select>
                                 </div>
                             </div>
@@ -139,4 +149,19 @@
     <!-- Service End -->
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted } from 'vue';
+import servicesData from '@/assets/services.json'; // Importa el JSON de servicios
+const services = ref([]);
+
+
+const selectedDate = ref('');
+const selectedTime = ref('');
+// Texto del placeholder personalizado
+const placeholderDateText = 'Select Date';
+const placeholderTimeText = 'Select Time';
+
+onMounted(() => {
+  services.value = servicesData; // Carga los servicios en la variable
+});
+</script>

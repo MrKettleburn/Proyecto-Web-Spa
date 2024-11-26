@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Ana Pérez",
+        "profesion": "Terapeuta",
+        "mensaje": "Excelente servicio, me siento renovada.",
+        "imagen": "../img/testimonial-1.jpg"
+    },
+    {
+        "nombre": "Carlos Gómez",
+        "profesion": "Ingeniero",
+        "mensaje": "Un lugar perfecto para relajarse después del trabajo.",
+        "imagen": "../img/testimonial-2.jpg"
+    },
+    {
+        "nombre": "María López",
+        "profesion": "Diseñadora",
+        "mensaje": "Ambiente increíble y personal muy atento.",
+        "imagen": "../img/testimonial-3.jpg"
+    }
+]

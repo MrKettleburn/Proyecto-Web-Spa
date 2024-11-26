@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Body Massage" },
+    { "id": 2, "name": "Stone Therapy" },
+    { "id": 3, "name": "Facial Therapy" },
+    { "id": 4, "name": "Skin Care" },
+    { "id": 5, "name": "Steam Bath" },
+    { "id": 6, "name": "Face Masking" }
+]
