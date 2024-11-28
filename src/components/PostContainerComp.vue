@@ -77,7 +77,7 @@
     }
     .card{
         transition: transform 0.2s;
-        margin: 15px;
+        margin: 25px;
     }
 
     .card:hover{
