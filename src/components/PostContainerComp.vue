@@ -22,12 +22,14 @@
             image: image1,
             title: 'Body Massages',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ad nam perferendis inventore aliquam dicta quod iusto quisquam, quam suscipit corrupti, tempore eaque repellendus voluptatem, reiciendis cum soluta unde quae?'
+            text: 'Experience the magic of our body massages, designed to release tension and revitalize your body. Each session is a sensory journey that combines therapeutic techniques with essential oils, providing you with a deep relaxation experience. Allow yourself to enjoy a moment of peace and well-being that will transform your day.'
         },
 
         {
             image:image2,
             title: 'Facial Treatments',
             text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ad nam perferendis inventore aliquam dicta quod iusto quisquam, quam suscipit corrupti, tempore eaque repellendus voluptatem, reiciendis cum soluta unde quae?'
+            text: 'Revitalize your skin with our personalized facial treatments that nourish and rejuvenate your face. We use high-quality products and innovative techniques to combat aging and enhance your natural beauty. Leave our cabin with radiant and fresh skin, ready to shine.'
         },
 
         {

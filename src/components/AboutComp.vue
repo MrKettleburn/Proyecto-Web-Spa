@@ -9,6 +9,7 @@
                 </div>
                 <div class=" caja col-lg-6">
                     <p class="pl-4 border-left border-primary text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis voluptate illum dolores numquam vitae unde facilis, ipsam voluptatem debitis aperiam voluptatum est quos, esse doloribus, at cumque labore. Laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, reiciendis ut. Atque quo, tenetur dolor veritatis amet animi? Deleniti, laborum incidunt! Voluptas cum ea dolor cupiditate qui voluptatum incidunt iusto?Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd erat duo eos et erat</p>
+                    <p class="pl-4 border-left border-primary text-justify">Welcome to Your Best Spa, where beauty and wellness come together in one place. Our center is dedicated to providing you with a unique experience, combining high-quality spa treatments with exceptional service. From relaxing massages to rejuvenating facial treatments, each service is designed to meet your needs and help you feel renewed. With a team of highly trained specialists, we ensure that every visit is a journey towards tranquility and beauty.</p>
                     <div class="row pt-3">
                         <div class="col-6">
                             <div class="cajita bg-light text-center p-5">
