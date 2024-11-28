@@ -9,12 +9,13 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Spa & Beauty Center</h6>
-                            <h3 class="display-3 text-capitalize text-white mb-3">Tu bienestar es nuestra prioridad</h3>
-                            <p class="mx-md-5 px-5">Disfruta de una experiencia única con nuestros tratamientos exclusivos: masajes corporales, cuidado de la piel, terapias faciales, mascarillas y mucho más. Estamos aquí para ofrecerte el balance perfecto entre relajación y belleza.</p>
+                            <h5 class="display-3 text-capitalize text-white mb-3">Where Tranquility meets Luxury</h5>
+                            <p class="mx-md-5 px-5">At our spa, we believe in a holistic approach to wellness and renewal. Each treatment is designed to rejuvenate not only your body but also your soul, providing total harmony between mind and body.</p>
                             <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Where to find us?</a>
                         </div>
                     </div>
                 </div>
+                
                 
             </div>
         </div>

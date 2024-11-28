@@ -13,6 +13,7 @@
                     <router-link to="/" class="nav-item nav-link active" >Home</router-link>
                     <router-link to="/about" class="nav-item nav-link active" >About Us</router-link>
                     <router-link to="/services" class="nav-item nav-link active" >Services</router-link>
+                    <router-link to="/reserve" class="nav-item nav-link active" >Reservations</router-link>
                 </div>
                 <router-link to="/login" class="btn btn-primary d-none d-lg-block" >Login</router-link>
             </div>

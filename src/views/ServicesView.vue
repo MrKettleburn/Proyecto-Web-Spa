@@ -143,6 +143,10 @@
         </div>
     </div>
     <!-- Service End -->
+     <PostContainerComp/>
+     <PricingComp/>
+     <RouterView/>
+     
 </template>
 
 <script setup>
@@ -161,3 +165,19 @@ onMounted(() => {
   services.value = servicesData; // Carga los servicios en la variable
 });
 </script>
+<script setup>
+  
+import PostContainerComp from '@/components/PostContainerComp.vue';
+import PricingComp from '@/components/PricingComp.vue';
+</script>
+
+<style>
+.cont{
+    align-items: normal;
+    flex-direction: row;
+}
+
+.img-fluid{
+    width: 35%;
+}
+</style>
