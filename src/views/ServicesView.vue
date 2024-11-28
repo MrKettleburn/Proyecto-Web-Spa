@@ -10,11 +10,16 @@
 
 
     <!-- Service Start -->
-     <PostContainer/>
+     <PostContainerComp/>
+     <PricingComp/>
+     <RouterView/>
+     
 </template>
 
 <script setup>
-    import PostContainer from '@/components/PostContainer.vue';
+  
+import PostContainerComp from '@/components/PostContainerComp.vue';
+import PricingComp from '@/components/PricingComp.vue';
 </script>
 
 <style>

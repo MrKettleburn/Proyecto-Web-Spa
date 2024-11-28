@@ -13,6 +13,7 @@ import FooterComp from './components/FooterComp.vue';
 
 
 
+
 </script>
 
 <style lang="scss" scoped>
