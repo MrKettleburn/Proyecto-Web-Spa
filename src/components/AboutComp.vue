@@ -30,6 +30,9 @@
     <!-- About End -->
 </template>
 
+<script setup>
+</script>
+
 <style>
    .cajita{
     border-radius: 5px;

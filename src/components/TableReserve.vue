@@ -15,7 +15,12 @@
         </thead>
         <tbody class="cuerpo">
           <tr v-for="(reservation, index) in reservations" :key="index">
-            <td class="cuerpo">{{ reservation.reserva }}</td>
+            <td class="cuerpo">
+            <div>
+            <img src='../img/about.jpg' />
+            <p>{{ reservation.reserva }}</p>
+            </div>
+            </td>
             <td class="cuerpo">{{ reservation.fecha }}</td>
             <td class="cuerpo">{{ reservation.hora }}</td>
             <td class="cuerpo">{{ reservation.servicios }}</td>
@@ -77,5 +82,6 @@
     background-color: rgb(241, 199, 199);
     border-color: black;
   }
+  
   </style>
   
